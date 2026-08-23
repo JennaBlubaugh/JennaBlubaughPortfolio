@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Links stylesheet-->
+    <script src="js/gallery.js"></script>
+    <!--Keeps script in head-->
+</head>
+
+<body>
+    <div class="mainImageSpace">
+        <!--This class "mainImageSpace" overarches EVERYTHING, so it is not unique to the
+        thumbnails-->
+        <div class="hoverImageOnly">
+            <!--Making main image space for css purposes-->
+
+
+            <!--Jeantaud image
+        I need ids on each image id is jean-->
+            <img src="img/Jeantaud_1898_tn.jpg"
+                alt="Thumbnail image of 1898 Jeantaud electric vehicle which set the first land speed record."
+                height="100px" width="100px" id="jean">
+
+            <!--Oeuf de Paques id is paques-->
+            <img src="img/gardner-serpollet-oeuf-de-pacques_1902_tn.jpg"
+                alt="Thumbnail image of 1902 Œuf de Pâques vehicle which set a new land speed record with a steam powered vehicle."
+                height="100px" width="100px" id="paques">
+
+            <!--Fred Mariott id is fred-->
+            <img src="img/fred-marriott-stanley-steamer-1906_tn.jpg"
+                alt="Image of new land speed record set in 1906 by Fred Marriott" height="100px" width="100px"
+                id="fred">
+
+            <!--Golden arrow by Henry Segrave id is arrow-->
+            <img src="img/Golden_Arrow_1929_tn.jpg"
+                alt="Image of the car 'Golden Arrow' which exceeded the previous land speed record" height="100px"
+                width="100px" id="arrow">
+
+            <!--Blue bird, Donald Campbell id is blue-->
+            <img src="img/Blue-Bird-CN7_1964_tn.jpg"
+                alt="Image of the car 'Blue bird' and set the record for the flying mile." height="100px" width="100px"
+                id="blue">
+
+            <!--Thrust Andy Green ID is thrust-->
+            <img src="img/Thrust-SSC-2_1997_tn.jpg"
+                alt="Image of Andy Green next to Thrust SSC which was the only vehicle to break the sound barrier and achieved 763 mph"
+                height="100px" width="100px" id="thrust">
+
+        </div>
+        <div id="imageChange">
+            <!--Select an image text, will be removed with functions-->
+            <p id="selectTag">Please select an image!</p>
+
+            <!--This is where the new, larger image will go and is below the smaller images-->
+        </div>
+    </div>
+</body>
+
+</html>

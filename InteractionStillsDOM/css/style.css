@@ -1,0 +1,71 @@
+/*Through css, I can add borders (black) to the images.....
+
+They also need a tiny bit of padding*/
+
+
+/*I know that the tooltips that appear when you hover over the image may be included with this assignment
+but I'm seriously hoping you don't take off major points for that (please have mercy)*/
+
+
+
+.mainImageSpace {
+    background-color: white;
+    height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    /*This creates the white border for the thumbnails and bigger
+images.  Using height that way it stays the same*/
+
+}
+
+body {
+    /*This creates the dark gray borders on left, right, and bottom*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    /*THAT GOT RID OF THE BAR ON TOP HOORAY*/
+    width: 750px;
+    /*The white box width is here*/
+    background-color: rgb(81, 78, 78);
+}
+
+.hoverImageOnly img {
+    border: solid 1px black;
+    padding: 3px;
+    /*While this says "hoverImageOnly, this is so that the red outline and padding
+    stays on thumbnail images, not the bigger images*/
+}
+
+/*
+img:hover {
+    border: solid 1px red;
+    background-color: red;
+    /*THIS WAS THE MOVE HOORAY*/
+/* cursor: pointer;
+    /*This opens the mouse hand*/
+/*
+}*/
+
+.hoverImageOnly img:hover {
+    border: solid 1px red;
+    background-color: red;
+    cursor: pointer;
+    /*The video didn't show if the large images should have the border,
+    but I concluded that they probably shouldn't*/
+
+
+}
+
+#selectTag {
+    border: solid 1px black;
+    width: 150px;
+    /*This is the format for the "please select image" tag*/
+}
+
+#imageChange img {
+    padding: 0px;
+    border: solid 1px black;
+    /*This is the format for the larger images! No padding since example
+    didn't have that*/
+}
