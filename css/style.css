@@ -13,6 +13,9 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    color: rgb(202, 255, 251);
+}
 
 /*Phone*/
 @media (max-width:600px) {
