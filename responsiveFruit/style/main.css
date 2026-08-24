@@ -1,0 +1,96 @@
+@import "normalize.css";
+/*This imports normalize.css*/
+
+@media (max-width: 600px) {
+
+    /*For screens smaller than 600px*/
+    .grid-container {
+        display: grid;
+        background-color: rgb(255, 54, 94);
+        padding: 10px;
+        grid-template-columns: auto auto auto;
+        /*Three columns to be similar to demo*/
+    }
+
+    /*Grid item formatting*/
+    .grid-item {
+        background-color: rgb(171, 111, 123);
+        padding: 10px;
+        border: solid 1px black;
+    }
+}
+
+@media(min-width:600px) {
+
+    /*For screens bigger than 600px*/
+    .grid-container {
+        display: grid;
+        background-color: rgb(255, 108, 137);
+        padding: 10px;
+        grid-template-columns: auto auto auto;
+    }
+
+    .grid-item {
+        background-color: rgb(171, 111, 123);
+        padding: 10px;
+        border: solid 1px black;
+    }
+}
+
+img {
+    /*Formatting so images stay within their grid containers*/
+    width: 100%;
+    /*This little tag is very crucial*/
+    display: block;
+}
+
+body {
+    /*Creates a background color for the page*/
+    background-color: rgb(255, 215, 223);
+}
+
+h1 {
+    /*Styling for header*/
+    font-family: verdana, sans-serif;
+    color: rgb(111, 42, 55);
+    text-align: center;
+}
+
+p {
+    /*Styling for p tags*/
+    font-family: arial;
+    color: rgb(111, 42, 55);
+    text-align: center;
+}
+
+nav {
+    /*Background image for the navigation bar, with padding to make the image appear larger, and opacity so the image
+    doesn't overtake the text*/
+    background-image: url("https://thumbs.dreamstime.com/b/fruit-vegetables-7134858.jpg");
+    padding: 30px;
+    opacity: 50%;
+    display: grid;
+}
+
+/*Pseudo classes to alter color of links in nav*/
+a {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(224, 56, 84);
+}
+
+a:link {
+    color: darkred;
+}
+
+a:hover {
+    color: rgb(255, 78, 222);
+}
+
+a:visited {
+    color: rgb(63, 0, 63);
+}
+
+a:active {
+    color: lightpink;
+}

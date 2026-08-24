@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <!--Imports the stylesheet-->
+    <title>Fruit Lab 7</title>
+</head>
+<!--Under head, above body-->
+<header>
+    <nav class="grid-container">
+        <!--These don't need to work, as stated in instructions-->
+        <a href="index.html" class="grid-item">Home</a>
+        <a href="index.html" class="grid-item">Types of Fruit</a>
+        <a href="index.html" class="grid-item">About</a>
+        <!--Using grid item and container to make sure it is formatted as a grid-->
+    </nav>
+</header>
+
+<body>
+    <div>
+        <h1>Images of Fruit</h1>
+    </div>
+    <!--Placeholder text to make it more presentable.-->
+    <div>
+        <p>Here are some images of tasty and delicious fruit. Please
+            do stay a while, we have all the fruit you can eat.</p>
+    </div>
+    <div class="grid-container">
+        <!--Overarching div tag to hold other div tags with images-->
+        <div class="grid-item">
+            <img src="imageAssets/highResFruit.jpeg" alt="A cluster of various fruits"
+                srcset="imageAssets/fruit1200.jpg 1800w, imageAssets/fruit900.jpg 1200w, imageAssets/fruit600.jpg 600w">
+            <!--As stated in video, cache needs to be cleared for the smaller
+                resolutions to be used-->
+        </div>
+        <!--Here are repeats of the previous section, to show three of the same image like in the demo-->
+
+        <div class="grid-item">
+            <img src="imageAssets/highResFruit.jpeg" alt="A cluster of various fruits"
+                srcset="imageAssets/fruit1200.jpg 1800w, imageAssets/fruit900.jpg 1200w, imageAssets/fruit600.jpg 600w">
+        </div>
+
+        <div class="grid-item">
+            <img src="imageAssets/highResFruit.jpeg" alt="A cluster of various fruits"
+                srcset="imageAssets/fruit1200.jpg 1800w, imageAssets/fruit900.jpg 1200w, imageAssets/fruit600.jpg 600w">
+        </div>
+    </div>
+    <div>
+        <!--Div tags were used for separation-->
+        <p>Here the images show grapes, strawberries, lemons, blueberries, blackberries, and cherries.</p>
+    </div>
+
+</body>
+
+</html>
