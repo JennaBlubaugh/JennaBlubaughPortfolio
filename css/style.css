@@ -16,6 +16,9 @@ a {
 a {
     color: rgb(202, 255, 251);
 }
+.linkedinLink{
+    color: black;
+}
 
 /*Phone*/
 @media (max-width:600px) {
