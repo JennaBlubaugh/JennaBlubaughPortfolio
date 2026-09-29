@@ -143,6 +143,137 @@ a {
 
 }
 
+/*Smaller phone*/
+
+@media(max-width:443px) {
+
+
+
+
+    body {
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: larger;
+    }
+
+    .headshot {
+        height: 200px;
+        width: auto;
+        border-radius: 50%;
+    }
+
+    header {
+        /* background-color: rgb(70, 80, 255);*/
+        background-image: linear-gradient(to top, rgb(70, 80, 255), rgb(50, 54, 143));
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .textBubbles {
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(70, 80, 255);
+        color: white;
+    }
+
+    .textBubbles:hover,
+    .textBubblesGray:hover {
+        background-color: rgb(226, 112, 255);
+        color: rgb(0, 0, 0);
+        transition-duration: 1s;
+        width: 120px;
+    }
+
+
+
+    .textBubblesGray {
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 110px;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(50, 54, 143);
+        color: white;
+
+    }
+
+    .notYetLearned {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menuItems {
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 300px;
+        height: auto;
+        text-align: center;
+        background-color: rgb(50, 54, 143);
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .videos {
+        width: 250px;
+
+    }
+
+    .thumbnailImage {
+        width: 100px;
+    }
+
+    .menuGrid {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+        column-gap: 10px;
+
+    }
+
+    h2 {
+        /* background-color: rgb(70, 80, 255);*/
+        background-image: linear-gradient(to right, rgb(70, 80, 255), rgb(208, 210, 255));
+        margin-left: 0px;
+        margin-right: 200px;
+        padding: 20px;
+        font-size: x-large;
+
+    }
+
+    footer {
+        background-image: linear-gradient(to top, rgb(70, 80, 255), rgb(50, 54, 143));
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+}
+
+
 /*Tablet*/
 @media (min-width: 600px) and (max-width: 1000px) {
 
